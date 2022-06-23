@@ -1,0 +1,54 @@
+.currentweather {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.city-name {
+  /* font-size: ; */
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+}
+.span-element {
+  display: flex;
+  gap: 5px;
+}
+#precip,
+#humidity,
+#wind,
+.span-element > p {
+  /* font-size: 1.2rem; */
+  font-weight: 700;
+}
+
+.title {
+  /* font-size: 0.8rem; */
+}
+.main-info {
+  display: flex;
+  align-items: center;
+}
+.main-info #icon {
+  margin-right: 1.5rem;
+}
+.main-info p {
+  /* margin-top: 1.5rem; */
+  font-weight: 300;
+  /* font-size: 1rem; */
+}
+.main-info #temp {
+  /* font-size: 3rem; */
+}
+.time-comment {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+}

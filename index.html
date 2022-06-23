@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>WALL CLOCK</title>
+  </head>
+  <body onload="startTime();">
+    <script src="./NoSleep.min.js"></script>
+    <div class="container">
+      <div class="top-half">Developed by Sid</div>
+      <div class="first-card">
+        <div class="clock">
+          <p class="time"></p>
+          <p id="date-month-year"></p>
+        </div>
+        <div class="location-comment">
+          <p id="region"></p>
+          <p>|</p>
+          <p id="comment"></p>
+        </div>
+        <div class="temp-icon">
+          <div class="only-temp">
+            <p id="temp"></p>
+            <span>&degC</span>
+          </div>
+          <img id="icon" src="" alt="" srcset="" />
+        </div>
+
+        <div class="last-flex">
+          <div>
+            <p id="precip"></p>
+            <p class="weather-stats-title">Precipitation</p>
+          </div>
+          <div>
+            <p id="humidity"></p>
+            <p class="weather-stats-title">Humidity</p>
+          </div>
+          <div>
+            <div class="span-element">
+              <p id="wind"></p>
+              <span>km/hr</span>
+            </div>
+            <p class="weather-stats-title">Wind</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-second">
+        <!---------------------------------------ONE-->
+        <div class="one">
+          <div class="flex">
+            <p id="one-day">Wed</p>
+            <p id="one-comment" class="weather-comment">Thunderstrom</p>
+          </div>
+          <div class="flex">
+            <img id="one-icon" src="" alt="" />
+          </div>
+          <div class="flex">
+            <div class="degree-celcius">
+              <p id="one-max-temp">100</p>
+              <span class="small-font">&degC</span>
+            </div>
+            <p>Max</p>
+          </div>
+          <div class="flex">
+            <div class="degree-celcius">
+              <p id="one-min-temp">100</p>
+              <span class="small-font">&degC</span>
+            </div>
+            <p>Min</p>
+          </div>
+        </div>
+        <!--------------------------------------------TWO-->
+        <div class="two">
+          <div class="flex">
+            <p id="two-day">Wed</p>
+            <p id="two-comment" class="weather-comment">Thunderstrom</p>
+          </div>
+          <div class="flex">
+            <img id="two-icon" src="" alt="" />
+          </div>
+          <div class="flex">
+            <div class="degree-celcius">
+              <p id="two-max-temp">100</p>
+              <span class="small-font">&degC</span>
+            </div>
+            <p>Max</p>
+          </div>
+          <div class="flex">
+            <div class="degree-celcius">
+              <p id="two-min-temp">100</p>
+              <span class="small-font">&degC</span>
+            </div>
+            <p>Min</p>
+          </div>
+        </div>
+        <!--------------------------------------------THREE-->
+        <div class="three">
+          <div class="flex">
+            <p id="three-day">Wed</p>
+            <p id="three-comment" class="weather-comment">Thunderstrom</p>
+          </div>
+          <div class="flex">
+            <img id="three-icon" src="" alt="" />
+          </div>
+          <div class="flex">
+            <div class="degree-celcius">
+              <p id="three-max-temp">100</p>
+              <span class="small-font">&degC</span>
+            </div>
+            <p>Max</p>
+          </div>
+          <div class="flex">
+            <div class="degree-celcius">
+              <p id="three-min-temp">100</p>
+              <span class="small-font">&degC</span>
+            </div>
+            <p>Min</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-third">
+        
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
